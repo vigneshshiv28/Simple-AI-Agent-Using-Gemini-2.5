@@ -1,0 +1,57 @@
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# VS Code settings
+.vscode/
+
+# Model artifacts (weights, checkpoints, outputs)
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# Hugging Face Transformers cache
+.cache/
+huggingface/
+~/.cache/huggingface/
+
+# Data files
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.db
+*.sqlite
+*.pkl
+
+# Secrets and configs
+.env
+*.secret
+*.key
+*.pem
+*.credentials
+secrets/
+config.json
+
+# Tool output or scratch files
+*.tmp
+*.out
+*.bak
+
+# LLM output logs
+agent_logs/
+too
+
